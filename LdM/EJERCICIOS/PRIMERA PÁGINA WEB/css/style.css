@@ -1,0 +1,24 @@
+h1 {
+    color:orange;
+    text-align: center;
+}
+h2 {
+    color:aqua;
+    text-align: right;
+}
+h3 {
+    color:azure;
+    text-align: left;
+}
+h4 {
+    color:blueviolet;
+    text-align: center;
+}
+h5 {
+    color:red;
+    text-align: right;
+}
+h6 {
+    color:salmon;
+    text-align: left;
+}

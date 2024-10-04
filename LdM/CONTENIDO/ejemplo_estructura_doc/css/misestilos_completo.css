@@ -1,0 +1,32 @@
+/* Estructura básica
+nombreEtiqueta {
+  atributo : valorAtributo;
+}
+Ejemplo:
+h1 {
+  color:blue;
+  background-color: white;
+  text-align: center;
+} */
+
+/*poner color azul al cuerpo */
+body {
+  color:blue;
+}
+/*poner la cabecera a rojo y texto justificado al centro */
+header {
+   color:red;
+   text-align: center;
+}
+/* poner todo lo que vaya en la etiqueta article a color verde y con fondo amarillo. */
+article {
+  color: green;
+  background-color: yellow;
+}
+
+/* Poner el pie de página con letra rosa, fondo negro y texto alineado a la derecha */
+footer {
+  color: pink;
+  background-color: black;
+  text-align: right;
+}
