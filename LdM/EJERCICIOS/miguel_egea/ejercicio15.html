@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo de Tamaños y Resaltado</title>
+    <style>
+        body {
+            background-color: #EBDCA7; 
+            font-family: "Times New Roman", serif; 
+            text-align: center;
+        }
+        .size1 { font-size: x-small; }
+        .size2 { font-size: small; }
+        .size3 { font-size: medium; }
+        .size4 { font-size: large; }
+        .size5 { font-size: x-large; }
+        .size6 { font-size: xx-large; }
+        .size7 { font-size: 50px; }
+
+        .highlighted-text strong {
+            font-weight: bold;
+        }
+        .highlighted-text em {
+            font-style: italic;
+        }
+        .highlighted-text mark {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+
+    <p>
+        <span class="size7">O</span>
+        <span class="size7">I</span>
+        <span class="size6">I</span>
+        <span class="size5">I</span>
+        <span class="size4">I</span>
+        <span class="size3">I</span>
+        <span class="size2">I</span>
+        <span class="size1">I</span>
+        <span class="size1">I</span>
+        <span class="size2">I</span>
+        <span class="size3">I</span>
+        <span class="size4">I</span>
+        <span class="size5">I</span>
+        <span class="size6">I</span>
+        <span class="size7">I</span>
+        <span class="size7">O</span>
+    </p>
+
+    <p>
+        <span class="size1">size=1</span>
+        <span class="size2">size=2</span>
+        <span class="size3">size=3</span>
+        <span class="size4">size=4</span>
+        <span class="size5">size=5</span>
+        <span class="size6">size=6</span>
+        <span class="size7">size=7</span>
+    </p>
+
+    <p>
+        <span class="size7">size=+4</span>
+        <span class="size6">size=+3</span>
+        <span class="size5">size=+2</span>
+        <span class="size4">size=+1</span>
+        <span class="size3">size=-1</span>
+        <span class="size2">size=-2</span>
+    </p>
+
+    <div class="highlighted-text">
+        <p><strong>Este texto está en negrita usando la etiqueta &lt;strong&gt;.</strong></p>
+        <p><em>Este texto está en cursiva usando la etiqueta &lt;em&gt;.</em></p>
+        <p><mark>Este texto está resaltado usando la etiqueta &lt;mark&gt;.</mark></p>
+        <p><u>Este texto está subrayado usando la etiqueta &lt;u&gt;.</u></p>
+    </div>
+
+</body>
+</html>
