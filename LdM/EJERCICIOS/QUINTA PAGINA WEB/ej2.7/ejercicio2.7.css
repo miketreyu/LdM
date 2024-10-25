@@ -1,0 +1,8 @@
+.cir::after {
+    content: " \25CB";
+    margin-left: 5px;
+  }
+  .squ::after {
+    content: " \25A1";
+    margin-left: 5px;
+  }
