@@ -1,0 +1,18 @@
+h1::before{
+    content:"1. ";
+}
+h1{
+    counter-reset: contador;
+}
+h2::before{
+    counter-increment: contador;
+    content: "1."counter(contador)" ";
+}
+h2{
+    counter-reset: contador2;
+}
+h3::before{
+    counter-increment: contador2;
+    content: "1."counter(contador)"."counter(contador2);
+    content: "1.1."counter(contador2,upper-roman)" ";
+}
