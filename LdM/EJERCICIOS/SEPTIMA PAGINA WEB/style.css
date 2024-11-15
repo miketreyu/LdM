@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    width:80%;
+    margin: 20px auto;
+    text-align: center;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    tab-size: 80%;
+}
+.a{
+    background-color: gainsboro;
+}
+.b{
+    background-color: aquamarine;
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,14 @@
+
+body {
+    background-color: #EBDCA7;
+}
+h2, div, p.center {
+    text-align: center;
+}
+p.right {
+    text-align: right;
+}
+hr {
+    width: 50%;
+    size: 5;
+}
