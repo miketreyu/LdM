@@ -1,0 +1,92 @@
+h1{
+    display: none;
+}
+nav{
+    flex: auto;
+}
+menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FB810F;
+  }
+  
+  .lista_menu {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-family: Arial; 
+    font-size: 16px;
+  }
+  
+  li a:hover {
+    background-color: #CA6715;
+  }
+  h2{
+    font-family: Arial;
+    font-size: 28px;
+    color: #333333;
+    font-weight: 1000;
+  }
+  p{
+    font-family: Arial;
+    font-size: 20px;
+    color: #796D65;
+  }
+  div{
+    padding: left;
+    margin-right: 800px;
+  }
+  span{
+    font-family: Arial Normal;
+    font-weight: 400;
+    font-size: small;
+  }
+  .lista_materiales{
+    list-style-type: square;
+    color: #FB810F;
+    size:  20px;
+  }
+  .color_negro_intento{
+    color:#333333;
+  }
+  table{
+    height: 10rem;
+    width: 30rem;
+    margin-right: 200px;
+    margin-left: 200px;
+  }
+  th{
+    text-align: center;
+    color: #fff;
+    background-color: #FB810F;
+  }
+  .div_form{
+    align-items: center;
+    text-align: center;
+  }
+  .caja{
+    text-align: center;
+    margin: 0px;
+    background-color: #F2F2F2;
+  }
+.ancla_form {
+    text-align: end;
+    color: #FB810F;
+    text-decoration: none;
+    
+  }
+  .Bienvenido{
+    margin-left: 280px;
+    
+  }
+
+
+
